@@ -57,3 +57,19 @@ tr :hover{
     color: white;
     margin-top: 15px;
 }
+#navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar li{
+    float: left;
+}
+#navbar li:last-child{
+    float: right;
+}
+#navbar li:hover{
+    background-color: black;
+}
