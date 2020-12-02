@@ -6,8 +6,9 @@ hr{
     border-width: 15px;
     border-style: none;
     border-top-style: dotted;
-    width: 30%;
+    width: 100%;
     border-color:yellow;
+    text-align: right;
 }
 h1,h2,h3,h4,h5,h6{
     text-align: center;
@@ -20,13 +21,17 @@ ol,ul,img,p{
     margin-left: auto;
     margin-right: auto;
 }
-#navbar {
+.navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(34, 33, 33);}
-
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    }
+    
 *{
     margin:0;
     padding:0;
@@ -57,19 +62,19 @@ tr :hover{
     color: white;
     margin-top: 15px;
 }
-#navbar li a{
+.navbar  a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-#navbar li{
+.navbar li{
     float: left;
 }
-#navbar li:last-child{
+.navbar li:last-child{
     float: right;
 }
-#navbar li:hover{
+.navbar li:hover{
     background-color: black;
 }
