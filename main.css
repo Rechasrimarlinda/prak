@@ -100,12 +100,20 @@ tr :hover{
     box-sizing: border-box;
     width: 33.33%;
     padding: 25px;
-   /* @media (max-width: 850px) {
-       width: 50%;
-   }
-   @media (max-width: 500px) {
-    width: 100%;
-} */
+    
+   
+    @media only screen and  (max-width: 850px) {
+        img .my-portofolio {
+           width: 50%;
+        }
+    
+     }
+     @media only screen and  (max-width: 500px) {
+        img .my-portofolio {
+           width: 100%;
+        }
+    
+     }
 
 }
 
@@ -131,4 +139,29 @@ input[type=submit]{
     margin: 4px 2px;
     cursor: pointer;
 
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: " sd main main main ";
+    margin-bottom: 100px;
+}
+.article-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sidebar ul{
+    list-style-type:none;
+    margin: 0;  
+    padding: 0; 
+}
+.sidebar li{
+    display: block;
+    color: yellow;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+}
+.sidebar li:hover{
+    background-color: black;
+    color: white;
 }
